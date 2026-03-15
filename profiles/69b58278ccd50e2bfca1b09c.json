@@ -20,7 +20,7 @@
         "LowerNickname": "clay",
         "Side": "Usec",
         "Level": 16,
-        "Experience": 220423,
+        "Experience": 223723,
         "RegistrationDate": 1773504361,
         "GameVersion": "unheard_edition",
         "AccountType": 0,
@@ -59,11 +59,11 @@
       },
       "Health": {
         "Hydration": {
-          "Current": 85,
+          "Current": 100,
           "Maximum": 100
         },
         "Energy": {
-          "Current": 73,
+          "Current": 100,
           "Maximum": 100
         },
         "Temperature": {
@@ -115,7 +115,7 @@
             }
           }
         },
-        "UpdateTime": 1773541547
+        "UpdateTime": 1773585118
       },
       "Inventory": {
         "items": [
@@ -6214,6 +6214,17 @@
             "upd": {
               "StackObjectsCount": 266406
             }
+          },
+          {
+            "_id": "69b6bd87eac27878d45266a6",
+            "_tpl": "656e0436d44a1bb4220303a0",
+            "parentId": "69b5eed21fddcf654c9c5823",
+            "slotId": "main",
+            "location": {
+              "x": 0,
+              "y": 0,
+              "r": "Horizontal"
+            }
           }
         ],
         "equipment": "69b58769772aca45b4fa34ed",
@@ -9951,12 +9962,6 @@
           "value": 5,
           "sourceId": "69b592bc83592182946991e9"
         },
-        "69b592bc83592182946991f7": {
-          "id": "69b592bc83592182946991f7",
-          "type": "HandoverItem",
-          "value": 0,
-          "sourceId": "69b592bc83592182946991f5"
-        },
         "69b592bc8359218294699205": {
           "id": "69b592bc8359218294699205",
           "type": "CounterCreator",
@@ -10846,7 +10851,7 @@
         "HideoutCounters": null,
         "Seed": "730614a19ae6c462168d8e9e9c3ab0e4",
         "MannequinPoses": {},
-        "sptUpdateLastRunTimestamp": 1773542495,
+        "sptUpdateLastRunTimestamp": 1773585281,
         "Customization": {
           "Wall": "675844bdf94a97cbbe096f1a",
           "Floor": "6758443ff94a97cbbe096f18",
@@ -11051,18 +11056,6 @@
           "completedConditions": [
             "69b592bc83592182946991ed"
           ],
-          "availableAfter": 0
-        },
-        {
-          "qid": "69b592bc83592182946991f5",
-          "startTime": 0,
-          "status": 8,
-          "statusTimers": {
-            "1": 1773508838.8179998,
-            "2": 1773509969.199,
-            "8": 1773535366.36
-          },
-          "completedConditions": [],
           "availableAfter": 0
         },
         {
@@ -11450,11 +11443,12 @@
         {
           "qid": "59689fbd86f7740d137ebfc4",
           "startTime": 0,
-          "status": 3,
+          "status": 4,
           "statusTimers": {
             "1": 1773535231.2719998,
             "2": 1773535239.214,
-            "3": 1773541545.929
+            "3": 1773541545.929,
+            "4": 1773585177
           },
           "completedConditions": [
             "59a928cd86f7747804332c78",
@@ -11574,6 +11568,15 @@
             "59b95c7786f77418457056ed"
           ],
           "availableAfter": 0
+        },
+        {
+          "qid": "5968eb3186f7741dde183a4d",
+          "startTime": 1773585180,
+          "status": 2,
+          "statusTimers": {
+            "2": 1773585180
+          },
+          "completedConditions": []
         }
       ],
       "TradersInfo": {
@@ -11628,7 +11631,7 @@
         "54cb57776803fa99248b456e": {
           "loyaltyLevel": 2,
           "salesSum": 4227635,
-          "standing": 0.25,
+          "standing": 0.28,
           "nextResupply": 1773512376,
           "unlocked": true,
           "disabled": false
@@ -11644,7 +11647,7 @@
         "58330581ace78e27b8b10cee": {
           "loyaltyLevel": 2,
           "salesSum": 1078023,
-          "standing": 0.54,
+          "standing": 0.52,
           "nextResupply": 1773511016,
           "unlocked": true,
           "disabled": false
@@ -17190,8 +17193,8 @@
       "_id": "54cb50c76803fa8b248b4571"
     },
     "54cb57776803fa99248b456e": {
-      "attachmentsNew": 0,
-      "new": 0,
+      "attachmentsNew": 2,
+      "new": 2,
       "type": 2,
       "pinned": false,
       "messages": [
@@ -17358,6 +17361,142 @@
             "time": "02:01",
             "location": "bigmap"
           }
+        },
+        {
+          "_id": "69b6bd87eac27878d45266a2",
+          "uid": "54cb57776803fa99248b456e",
+          "type": 8,
+          "dt": 1773583751,
+          "templateId": "58fe0e3486f77471f772c3f2 4",
+          "text": "",
+          "hasRewards": false,
+          "rewardCollected": true,
+          "items": {
+            "stash": "69b6bd87eac27878d45266a1",
+            "data": []
+          },
+          "maxStorageTime": 518400,
+          "systemData": {
+            "date": "14.03.2026",
+            "time": "18:45",
+            "location": "bigmap"
+          }
+        },
+        {
+          "_id": "69b6bd87eac27878d45266a5",
+          "uid": "54cb57776803fa99248b456e",
+          "type": 8,
+          "dt": 1773583751,
+          "templateId": "58fe0e3486f77471f772c3f2 3",
+          "text": "",
+          "hasRewards": false,
+          "rewardCollected": true,
+          "items": {
+            "stash": "69b6bd87eac27878d45266a4",
+            "data": []
+          },
+          "maxStorageTime": 518400,
+          "systemData": {
+            "date": "14.03.2026",
+            "time": "19:41",
+            "location": "bigmap"
+          }
+        },
+        {
+          "_id": "69b6c3193b3891400c56a820",
+          "uid": "54cb57776803fa99248b456e",
+          "type": 12,
+          "dt": 1773585177,
+          "templateId": "59689fbd86f7740d137ebfc4 successMessageText",
+          "text": "",
+          "hasRewards": true,
+          "rewardCollected": false,
+          "items": {
+            "stash": "69b6c3193b3891400c56a821",
+            "data": [
+              {
+                "_id": "69b6c3193b3891400c56a822",
+                "_tpl": "5449016a4bdc2d6f028b456f",
+                "parentId": "69b6c3193b3891400c56a821",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 15059
+                }
+              },
+              {
+                "_id": "69b6c3193b3891400c56a823",
+                "_tpl": "5448fee04bdc2dbc018b4567",
+                "parentId": "69b6c3193b3891400c56a821",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1,
+                  "SpawnedInSession": true
+                }
+              },
+              {
+                "_id": "69b6c3193b3891400c56a824",
+                "_tpl": "5448fee04bdc2dbc018b4567",
+                "parentId": "69b6c3193b3891400c56a821",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1,
+                  "SpawnedInSession": true
+                }
+              },
+              {
+                "_id": "69b6c3193b3891400c56a825",
+                "_tpl": "5448fee04bdc2dbc018b4567",
+                "parentId": "69b6c3193b3891400c56a821",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1,
+                  "SpawnedInSession": true
+                }
+              },
+              {
+                "_id": "69b6c3193b3891400c56a826",
+                "_tpl": "5448fee04bdc2dbc018b4567",
+                "parentId": "69b6c3193b3891400c56a821",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1,
+                  "SpawnedInSession": true
+                }
+              },
+              {
+                "_id": "69b6c3193b3891400c56a827",
+                "_tpl": "5448fee04bdc2dbc018b4567",
+                "parentId": "69b6c3193b3891400c56a821",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1,
+                  "SpawnedInSession": true
+                }
+              },
+              {
+                "_id": "69b6c3193b3891400c56a828",
+                "_tpl": "5d1b385e86f774252167b98a",
+                "parentId": "69b6c3193b3891400c56a821",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1,
+                  "SpawnedInSession": true
+                }
+              }
+            ]
+          },
+          "maxStorageTime": 259200
+        },
+        {
+          "_id": "69b6c31c3b3891400c56a829",
+          "uid": "54cb57776803fa99248b456e",
+          "type": 10,
+          "dt": 1773585180,
+          "templateId": "5968eb3186f7741dde183a4d description",
+          "text": "",
+          "hasRewards": false,
+          "rewardCollected": false,
+          "items": {}
         }
       ],
       "_id": "54cb57776803fa99248b456e"
@@ -18834,6 +18973,19 @@
         "version": "1.0.0",
         "author": "you",
         "dateAdded": 1773522779
+      },
+      {
+        "name": "Live Flea Prices",
+        "version": "2.0.1",
+        "author": "DrakiaXYZ",
+        "dateAdded": 1773585077
+      },
+      {
+        "name": "SVM",
+        "version": "2.1.0",
+        "author": "GhostFenixx",
+        "dateAdded": 1773585077,
+        "url": "https://github.com/GhostFenixx"
       }
     ],
     "receivedGifts": [
@@ -18855,24 +19007,6 @@
   },
   "inraid": {},
   "insurance": [
-    {
-      "scheduledTime": 1773557966,
-      "traderId": "54cb57776803fa99248b456e",
-      "maxStorageTime": 518400,
-      "systemData": {
-        "date": "14.03.2026",
-        "time": "18:45",
-        "location": "bigmap"
-      },
-      "messageType": 8,
-      "messageTemplateId": "58fe0e3486f77471f772c3f2 4",
-      "items": [
-        {
-          "_id": "69b58769772aca45b4fa360e",
-          "_tpl": "55d4887d4bdc2d962f8b4570"
-        }
-      ]
-    },
     {
       "scheduledTime": 1773644035,
       "traderId": "54cb50c76803fa8b248b4571",
@@ -18988,24 +19122,6 @@
               "ScopeZoomValue": 0
             }
           }
-        }
-      ]
-    },
-    {
-      "scheduledTime": 1773581232,
-      "traderId": "54cb57776803fa99248b456e",
-      "maxStorageTime": 518400,
-      "systemData": {
-        "date": "14.03.2026",
-        "time": "19:41",
-        "location": "bigmap"
-      },
-      "messageType": 8,
-      "messageTemplateId": "58fe0e3486f77471f772c3f2 3",
-      "items": [
-        {
-          "_id": "69b5ae32d6497a3c6468de5b",
-          "_tpl": "656e0436d44a1bb4220303a0"
         }
       ]
     },
@@ -19590,35 +19706,11 @@
   "traderPurchases": {
     "5c0647fdd443bc2504c2d371": {},
     "5a7c2eca46aef81a7ca2145d": {},
-    "54cb50c76803fa8b248b4571": {
-      "686e34626c2a18ed6b0eac5c": {
-        "count": 3,
-        "purchaseTimestamp": 1773538800
-      }
-    },
-    "58330581ace78e27b8b10cee": {
-      "686e34106c2a18ed6b0e8d2f": {
-        "count": 4,
-        "purchaseTimestamp": 1773540410
-      },
-      "686e34186c2a18ed6b0e9046": {
-        "count": 150,
-        "purchaseTimestamp": 1773540469
-      }
-    },
-    "5935c25fb3acc3127c3d8cd9": {
-      "686e344a6c2a18ed6b0ea28e": {
-        "count": 120,
-        "purchaseTimestamp": 1773537925
-      }
-    },
+    "54cb50c76803fa8b248b4571": {},
+    "58330581ace78e27b8b10cee": {},
+    "5935c25fb3acc3127c3d8cd9": {},
     "6617beeaa9cfa777ca915b7c": {},
-    "54cb57776803fa99248b456e": {
-      "686e34706c2a18ed6b0eb412": {
-        "count": 1,
-        "purchaseTimestamp": 1773537971
-      }
-    },
+    "54cb57776803fa99248b456e": {},
     "5ac3b934156ae10c4430e83c": {}
   },
   "friends": [],

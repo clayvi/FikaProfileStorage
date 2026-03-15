@@ -59,11 +59,11 @@
       },
       "Health": {
         "Hydration": {
-          "Current": 74,
+          "Current": 100,
           "Maximum": 100
         },
         "Energy": {
-          "Current": 66,
+          "Current": 100,
           "Maximum": 100
         },
         "Temperature": {
@@ -114,7 +114,7 @@
             }
           }
         },
-        "UpdateTime": 1773541409
+        "UpdateTime": 1773586859
       },
       "Inventory": {
         "items": [
@@ -6739,10 +6739,6 @@
         },
         {
           "tid": "54cb50c76803fa8b248b4571",
-          "itemId": "69b60a8c1fddcf654cad93b7"
-        },
-        {
-          "tid": "54cb50c76803fa8b248b4571",
           "itemId": "69b602c61fddcf654ca943ee"
         },
         {
@@ -7334,7 +7330,7 @@
         "HideoutCounters": null,
         "Seed": "d9920e59c712967dd1d7b787819506a7",
         "MannequinPoses": {},
-        "sptUpdateLastRunTimestamp": 1773542495,
+        "sptUpdateLastRunTimestamp": 1773586872,
         "Customization": {
           "Wall": "675844bdf94a97cbbe096f1a",
           "Floor": "6758443ff94a97cbbe096f18",
@@ -9440,8 +9436,8 @@
       "_id": "58330581ace78e27b8b10cee"
     },
     "5a7c2eca46aef81a7ca2145d": {
-      "attachmentsNew": 0,
-      "new": 0,
+      "attachmentsNew": 1,
+      "new": 1,
       "type": 2,
       "pinned": false,
       "messages": [
@@ -9492,6 +9488,32 @@
           "hasRewards": false,
           "rewardCollected": false,
           "items": {}
+        },
+        {
+          "_id": "69b6c9abb63b7e90d83c686f",
+          "uid": "5a7c2eca46aef81a7ca2145d",
+          "type": 13,
+          "dt": 1773586859,
+          "templateId": "6776e324810eb26b880fb4a5 0",
+          "text": "",
+          "hasRewards": true,
+          "rewardCollected": false,
+          "items": {
+            "stash": "678d4d90fc70718b8c4067ad",
+            "data": [
+              {
+                "_id": "69b6c9abb63b7e90d83c6870",
+                "_tpl": "590c2c9c86f774245b1f03f2",
+                "parentId": "678d4d90fc70718b8c4067ad",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1,
+                  "SpawnedInSession": true
+                }
+              }
+            ]
+          },
+          "maxStorageTime": 259200
         }
       ],
       "_id": "5a7c2eca46aef81a7ca2145d"
@@ -9649,8 +9671,177 @@
   },
   "spt": {
     "version": "4.0.13 (40087)",
-    "mods": [],
-    "receivedGifts": [],
+    "mods": [
+      {
+        "name": "Bosses Have Lega Medals",
+        "version": "2.0.1",
+        "author": "acidphantasm",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "Acid's Bot Placement System",
+        "version": "2.0.13",
+        "author": "acidphantasm",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "Acid's Progressive Bot System",
+        "version": "2.1.5",
+        "author": "acidphantasm",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "Ref Friendly Quests",
+        "version": "2.0.3",
+        "author": "acidphantasm",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "StatTrack™",
+        "version": "2.0.0",
+        "author": "acidphantasm",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "Black Division [REDACTED] Home",
+        "version": "1.0.1",
+        "author": "TacticalToaster",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "Bot Callsigns",
+        "version": "2.0.3",
+        "author": "harmony",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "Bounty Board",
+        "version": "1.0.0",
+        "author": "DrBraun",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "CratesInAirdrop",
+        "version": "1.0.1",
+        "author": "bushtail",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "CollectorBackportPatch",
+        "version": "1.0.0",
+        "author": "you",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "DragonDen-NeonSigns",
+        "version": "2.0.0",
+        "author": "Drexira",
+        "dateAdded": 1773586859,
+        "url": "https://forge.sp-tarkov.com/mod/2304/dragon-den-neon-signs"
+      },
+      {
+        "name": "Live Flea Prices",
+        "version": "2.0.1",
+        "author": "DrakiaXYZ",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "server",
+        "version": "2.2.1",
+        "author": "Fika",
+        "dateAdded": 1773586859,
+        "url": "https://github.com/project-fika/Fika-Server-CSharp"
+      },
+      {
+        "name": "Fika Discord Presence",
+        "version": "1.0.2",
+        "author": "Fiodor",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "Hoods Energy Drinks",
+        "version": "1.1.1",
+        "author": "Hood",
+        "dateAdded": 1773586859,
+        "url": "https://github.com/Hood26/HoodsEnergyDrinks-CSharp/tree/master"
+      },
+      {
+        "name": "Lacyway's PvE Tweaks",
+        "version": "1.1.0",
+        "author": "Lacyway",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "MoreBotsAPI",
+        "version": "1.1.0",
+        "author": "TacticalToaster",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "NarcoNet",
+        "version": "1.0.2",
+        "author": "MadManBeavis",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "LootingBots-ServerMod",
+        "version": "1.6.3",
+        "author": "Skwizzy",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "SoftcoreHideout",
+        "version": "1.0.0",
+        "author": "devonjerothe",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "SAIN",
+        "version": "4.4.0",
+        "author": "Solarint",
+        "dateAdded": 1773586859,
+        "url": "https://github.com/ArchangelWTF/SAIN"
+      },
+      {
+        "name": "UI Fixes",
+        "version": "5.3.6",
+        "author": "Tyfon",
+        "dateAdded": 1773586859,
+        "url": "https://github.com/tyfon7/uifixes"
+      },
+      {
+        "name": "WTT-ContentBackport",
+        "version": "1.0.4",
+        "author": "GrooveypenguinX",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "WTT-ServerCommonLib",
+        "version": "2.0.15",
+        "author": "GrooveypenguinX",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "TarkovRareCollectibles",
+        "version": "1.1.5",
+        "author": "YellowDoge",
+        "dateAdded": 1773586859
+      },
+      {
+        "name": "SVM",
+        "version": "2.1.0",
+        "author": "GhostFenixx",
+        "dateAdded": 1773586859,
+        "url": "https://github.com/GhostFenixx"
+      }
+    ],
+    "receivedGifts": [
+      {
+        "giftId": "MechanicGiftDay1",
+        "timestampLastAccepted": 1773586859,
+        "current": 1
+      }
+    ],
     "blacklistedItemTpls": [],
     "freeRepeatableRefreshUsedCount": {
       "daily": 0

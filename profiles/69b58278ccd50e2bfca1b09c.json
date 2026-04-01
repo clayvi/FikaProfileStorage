@@ -59,11 +59,11 @@
       },
       "Health": {
         "Hydration": {
-          "Current": 71,
+          "Current": 84,
           "Maximum": 100
         },
         "Energy": {
-          "Current": 61,
+          "Current": 79,
           "Maximum": 100
         },
         "Temperature": {
@@ -115,7 +115,7 @@
             }
           }
         },
-        "UpdateTime": 1775078541
+        "UpdateTime": 1775079220
       },
       "Inventory": {
         "items": [
@@ -7998,34 +7998,6 @@
             }
           },
           {
-            "_id": "69b888275bc1d12018063a13",
-            "_tpl": "5c0d5ae286f7741e46554302",
-            "parentId": "69b6e59b3e436774b403ed42",
-            "slotId": "main",
-            "location": {
-              "x": 2,
-              "y": 3,
-              "r": "Horizontal"
-            },
-            "upd": {
-              "StackObjectsCount": 15
-            }
-          },
-          {
-            "_id": "69b888275bc1d12018063a14",
-            "_tpl": "5c0d5ae286f7741e46554302",
-            "parentId": "69b6e59b3e436774b403ed42",
-            "slotId": "main",
-            "location": {
-              "x": 1,
-              "y": 4,
-              "r": "Horizontal"
-            },
-            "upd": {
-              "StackObjectsCount": 60
-            }
-          },
-          {
             "_id": "69b888935bc1d12018064a02",
             "_tpl": "5991b51486f77447b112d44f",
             "parentId": "664115f68b8ae85875060b39",
@@ -9581,7 +9553,7 @@
               "r": "Horizontal"
             },
             "upd": {
-              "StackObjectsCount": 847589
+              "StackObjectsCount": 1000000
             }
           },
           {
@@ -12863,41 +12835,6 @@
             }
           },
           {
-            "_id": "69cd89819052b12cb44657ad",
-            "_tpl": "5f60b34a41e30a4ab12a6947",
-            "parentId": "664115f68b8ae85875060b39",
-            "slotId": "hideout",
-            "location": {
-              "x": 0,
-              "y": 13,
-              "r": "Horizontal"
-            }
-          },
-          {
-            "_id": "69cd89819052b12cb44657af",
-            "_tpl": "657bbb31b30eca9763051183",
-            "parentId": "69cd89819052b12cb44657ad",
-            "slotId": "Helmet_back",
-            "upd": {
-              "Repairable": {
-                "Durability": 25.8922157,
-                "MaxDurability": 28.89462
-              }
-            }
-          },
-          {
-            "_id": "69cd89819052b12cb44657b1",
-            "_tpl": "657bbad7a1c61ee0c3036323",
-            "parentId": "69cd89819052b12cb44657ad",
-            "slotId": "Helmet_top",
-            "upd": {
-              "Repairable": {
-                "Durability": 24.6634159,
-                "MaxDurability": 29.65223
-              }
-            }
-          },
-          {
             "_id": "69cd89819052b12cb4465c79",
             "_tpl": "6662e9aca7e0b43baa3d5f74",
             "parentId": "69b70ee46e4aad65808a33d4",
@@ -12945,7 +12882,7 @@
               "r": "Horizontal"
             },
             "upd": {
-              "StackObjectsCount": 60
+              "StackObjectsCount": 52
             }
           },
           {
@@ -13208,13 +13145,8 @@
           {
             "_id": "69b719bd6e4aad6580912bb9",
             "_tpl": "59c1383d86f774290a37e0ca",
-            "parentId": "69b8834e5bc1d12018050adb",
-            "slotId": "4",
-            "location": {
-              "x": 0,
-              "y": 0,
-              "r": "Horizontal"
-            }
+            "parentId": "69bc7c6d1f77790ee00e2125",
+            "slotId": "mod_magazine"
           },
           {
             "_id": "69b8891d160edc0cee000077",
@@ -13275,10 +13207,10 @@
           {
             "_id": "69cd896e75f1ac6b8f00000d",
             "_tpl": "58dd3ad986f77403051cba8f",
-            "parentId": "69b8834e5bc1d12018050adb",
-            "slotId": "1",
+            "parentId": "69b6e59b3e436774b403ed42",
+            "slotId": "main",
             "location": {
-              "x": 0,
+              "x": 1,
               "y": 0,
               "r": "Horizontal"
             },
@@ -13329,8 +13261,8 @@
             "slotId": "Front_plate",
             "upd": {
               "Repairable": {
-                "Durability": 15.1555786,
-                "MaxDurability": 54.20539
+                "Durability": 49.89539,
+                "MaxDurability": 49.89539
               }
             }
           },
@@ -13393,56 +13325,6 @@
                 "MaxDurability": 90
               }
             }
-          },
-          {
-            "_id": "69cd89819052b12cb4465ae0",
-            "_tpl": "69187ee78568323f8204aaf9",
-            "parentId": "664115f68b8ae85875060b39",
-            "slotId": "hideout",
-            "location": {
-              "x": 1,
-              "y": 15,
-              "r": "Horizontal"
-            },
-            "upd": {
-              "Repairable": {
-                "Durability": 95,
-                "MaxDurability": 100
-              },
-              "FireMode": {
-                "FireMode": "single"
-              }
-            }
-          },
-          {
-            "_id": "69cd89819052b12cb4465ae4",
-            "_tpl": "69187ee78568323f8204aafb",
-            "parentId": "69cd89819052b12cb4465ae0",
-            "slotId": "mod_stock"
-          },
-          {
-            "_id": "69cd89819052b12cb4465ae3",
-            "_tpl": "615d8faecabb9b7ad90f4d5d",
-            "parentId": "69cd89819052b12cb4465ae0",
-            "slotId": "mod_pistol_grip"
-          },
-          {
-            "_id": "69cd89819052b12cb4465ae1",
-            "_tpl": "6917d89b54f5f109c106c1ef",
-            "parentId": "69cd89819052b12cb4465ae0",
-            "slotId": "mod_barrel"
-          },
-          {
-            "_id": "69cd89819052b12cb4465ae2",
-            "_tpl": "691897048568323f8204ab11",
-            "parentId": "69cd89819052b12cb4465ae1",
-            "slotId": "mod_handguard"
-          },
-          {
-            "_id": "69cd89819052b12cb4465ae5",
-            "_tpl": "5bfeaa0f0db834001b734927",
-            "parentId": "69cd89819052b12cb4465ae0",
-            "slotId": "mod_magazine"
           },
           {
             "_id": "69bc7c6d1f77790ee00e2125",
@@ -13627,8 +13509,13 @@
           {
             "_id": "69bb35dce4ab6347c4c5a972",
             "_tpl": "59c1383d86f774290a37e0ca",
-            "parentId": "69bc7c6d1f77790ee00e2125",
-            "slotId": "mod_magazine"
+            "parentId": "69b8834e5bc1d12018050adb",
+            "slotId": "1",
+            "location": {
+              "x": 0,
+              "y": 1,
+              "r": "Horizontal"
+            }
           },
           {
             "_id": "69b6e4973e436774b403c18f",
@@ -13651,20 +13538,6 @@
             "_tpl": "5963866286f7747bf429b572"
           },
           {
-            "_id": "69cd8cd69052b12cb4471536",
-            "_tpl": "5449016a4bdc2d6f028b456f",
-            "parentId": "664115f68b8ae85875060b39",
-            "slotId": "hideout",
-            "location": {
-              "x": 5,
-              "y": 11,
-              "r": "Horizontal"
-            },
-            "upd": {
-              "StackObjectsCount": 80838
-            }
-          },
-          {
             "_id": "69cd8cd69052b12cb4471537",
             "_tpl": "5672cb724bdc2dc2088b456b",
             "parentId": "69b5fbc01fddcf654ca4d3ab",
@@ -13677,6 +13550,40 @@
             "upd": {
               "StackObjectsCount": 1,
               "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69cd8f47010017c43beded89",
+            "_tpl": "5c0d5ae286f7741e46554302",
+            "parentId": "69bb35dce4ab6347c4c5a972",
+            "slotId": "cartridges",
+            "location": 1,
+            "upd": {
+              "StackObjectsCount": 24
+            }
+          },
+          {
+            "_id": "69cd8f4f010017c43bf0080a",
+            "_tpl": "5c0d5ae286f7741e46554302",
+            "parentId": "69b719bd6e4aad6580912bb9",
+            "slotId": "cartridges",
+            "location": 1,
+            "upd": {
+              "StackObjectsCount": 59
+            }
+          },
+          {
+            "_id": "69cd8f6bb228f9628c4b4753",
+            "_tpl": "5449016a4bdc2d6f028b456f",
+            "parentId": "69b6e5ad3e436774b403ed44",
+            "slotId": "main",
+            "location": {
+              "x": 1,
+              "y": 0,
+              "r": "Horizontal"
+            },
+            "upd": {
+              "StackObjectsCount": 121120
             }
           }
         ],
@@ -13770,10 +13677,10 @@
             "Progress": 513.9441
           },
           {
-            "PointsEarnedDuringSession": 1.2180196,
-            "LastAccess": 1775078540,
+            "PointsEarnedDuringSession": 2.3019129333333335,
+            "LastAccess": 1775079257,
             "Id": "Charisma",
-            "Progress": 504.57254
+            "Progress": 505.6564333333333
           },
           {
             "PointsEarnedDuringSession": 0,
@@ -19247,6 +19154,38 @@
         {
           "tid": "54cb57776803fa99248b456e",
           "itemId": "69bc7c6d1f77790ee00e2125"
+        },
+        {
+          "tid": "54cb57776803fa99248b456e",
+          "itemId": "69bc7fdb1f77790ee00f6ac2"
+        },
+        {
+          "tid": "54cb57776803fa99248b456e",
+          "itemId": "69b735179ba9d73ea880cde8"
+        },
+        {
+          "tid": "54cb57776803fa99248b456e",
+          "itemId": "69bb35dce4ab6347c4c5a972"
+        },
+        {
+          "tid": "54cb57776803fa99248b456e",
+          "itemId": "69b734c39ba9d73ea880c0ac"
+        },
+        {
+          "tid": "54cb57776803fa99248b456e",
+          "itemId": "69b719bd6e4aad6580912bb8"
+        },
+        {
+          "tid": "54cb57776803fa99248b456e",
+          "itemId": "69b8834e5bc1d12018050adb"
+        },
+        {
+          "tid": "54cb57776803fa99248b456e",
+          "itemId": "69b8834e5bc1d12018050ae0"
+        },
+        {
+          "tid": "54cb57776803fa99248b456e",
+          "itemId": "69b8834e5bc1d12018050ae2"
         }
       ],
       "Hideout": {
@@ -19760,7 +19699,7 @@
         "HideoutCounters": null,
         "Seed": "730614a19ae6c462168d8e9e9c3ab0e4",
         "MannequinPoses": {},
-        "sptUpdateLastRunTimestamp": 1775078641,
+        "sptUpdateLastRunTimestamp": 1775079676,
         "Customization": {
           "Wall": "675844bdf94a97cbbe096f1a",
           "Floor": "675466ea8b3797a0e8038bd2",
@@ -20315,21 +20254,6 @@
           "completedConditions": [
             "5af414f286f774522f59b0d7",
             "5ae44c6886f7744f1a7eb2b8"
-          ],
-          "availableAfter": 0
-        },
-        {
-          "qid": "69b5fc9a1fddcf654ca4d3f7",
-          "startTime": 0,
-          "status": 4,
-          "statusTimers": {
-            "1": 1773534362.0319998,
-            "2": 1773593057.909,
-            "3": 1773597710.422,
-            "4": 1773598535
-          },
-          "completedConditions": [
-            "69b5fc9a1fddcf654ca4d3fb"
           ],
           "availableAfter": 0
         },
@@ -21263,48 +21187,6 @@
           "availableAfter": 0
         },
         {
-          "qid": "69bb3612e4ab6347c4c5a999",
-          "startTime": 0,
-          "status": 1,
-          "statusTimers": {
-            "1": 1773878101.066
-          },
-          "completedConditions": [],
-          "availableAfter": 0
-        },
-        {
-          "qid": "69bb3612e4ab6347c4c5a9a6",
-          "startTime": 0,
-          "status": 2,
-          "statusTimers": {
-            "1": 1773878101.067,
-            "2": 1773956647.3809998
-          },
-          "completedConditions": [],
-          "availableAfter": 0
-        },
-        {
-          "qid": "69bb3612e4ab6347c4c5a9b1",
-          "startTime": 0,
-          "status": 1,
-          "statusTimers": {
-            "1": 1773878101.067
-          },
-          "completedConditions": [],
-          "availableAfter": 0
-        },
-        {
-          "qid": "69bb3612e4ab6347c4c5a9bf",
-          "startTime": 0,
-          "status": 2,
-          "statusTimers": {
-            "1": 1773878101.067,
-            "2": 1773879990
-          },
-          "completedConditions": [],
-          "availableAfter": 0
-        },
-        {
           "qid": "5d25b6be86f77444001e1b89",
           "startTime": 0,
           "status": 4,
@@ -21578,7 +21460,7 @@
         },
         "54cb57776803fa99248b456e": {
           "loyaltyLevel": 3,
-          "salesSum": 12252443,
+          "salesSum": 12276011,
           "standing": 0.47,
           "nextResupply": 1773512376,
           "unlocked": true,
@@ -21586,7 +21468,7 @@
         },
         "5ac3b934156ae10c4430e83c": {
           "loyaltyLevel": 2,
-          "salesSum": 1795352,
+          "salesSum": 1826006,
           "standing": 0.25,
           "nextResupply": 1773514579,
           "unlocked": true,
@@ -21610,7 +21492,7 @@
         },
         "5a7c2eca46aef81a7ca2145d": {
           "loyaltyLevel": 2,
-          "salesSum": 9810073,
+          "salesSum": 9906346,
           "standing": 0.36,
           "nextResupply": 1773513696,
           "unlocked": true,
@@ -21629,10 +21511,10 @@
         "unlockedProductionRecipe": []
       },
       "RagfairInfo": {
-        "rating": 1.5872015999999993,
+        "rating": 1.6012815999999994,
         "isRatingGrowing": true,
         "offers": [],
-        "sellSum": 9899971,
+        "sellSum": 9970371,
         "notSellSum": 11106663
       },
       "Achievements": {
@@ -32196,6 +32078,20 @@
           "rewardCollected": true,
           "items": {},
           "maxStorageTime": 259200
+        },
+        {
+          "_id": "69cd8f6bb228f9628c4b4751",
+          "uid": "5ac3b934156ae10c4430e83c",
+          "type": 13,
+          "dt": 1775079275,
+          "text": "Your SSD drive 1 items were bought by _LETME_COOK_.",
+          "hasRewards": false,
+          "rewardCollected": true,
+          "items": {
+            "stash": "69cd8f6bb228f9628c4b4752",
+            "data": []
+          },
+          "maxStorageTime": 259200
         }
       ],
       "_id": "5ac3b934156ae10c4430e83c"
@@ -32822,8 +32718,8 @@
       "_id": "69b5bf2dd6497a3c6471e08e"
     },
     "5c0647fdd443bc2504c2d371": {
-      "attachmentsNew": 1,
-      "new": 1,
+      "attachmentsNew": 0,
+      "new": 0,
       "type": 2,
       "pinned": false,
       "messages": [
@@ -33026,31 +32922,11 @@
           "dt": 1775078608,
           "templateId": "5d25e48d86f77408251c4bfb successMessageText",
           "text": "",
-          "hasRewards": true,
-          "rewardCollected": false,
+          "hasRewards": false,
+          "rewardCollected": true,
           "items": {
             "stash": "69cd8cd09052b12cb447152f",
-            "data": [
-              {
-                "_id": "69cd8cd09052b12cb4471530",
-                "_tpl": "5449016a4bdc2d6f028b456f",
-                "parentId": "69cd8cd09052b12cb447152f",
-                "slotId": "main",
-                "upd": {
-                  "StackObjectsCount": 53892
-                }
-              },
-              {
-                "_id": "69cd8cd09052b12cb4471531",
-                "_tpl": "590c392f86f77444754deb29",
-                "parentId": "69cd8cd09052b12cb447152f",
-                "slotId": "main",
-                "upd": {
-                  "StackObjectsCount": 1,
-                  "SpawnedInSession": true
-                }
-              }
-            ]
+            "data": []
           },
           "maxStorageTime": 259200
         }
@@ -33492,6 +33368,25 @@
         "author": "Tyfon",
         "dateAdded": 1773954404,
         "url": "https://github.com/tyfon7/uifixes"
+      },
+      {
+        "name": "Acid's Bot Placement System",
+        "version": "2.0.14",
+        "author": "acidphantasm",
+        "dateAdded": 1775079220
+      },
+      {
+        "name": "Acid's Progressive Bot System",
+        "version": "2.1.7",
+        "author": "acidphantasm",
+        "dateAdded": 1775079220
+      },
+      {
+        "name": "SAIN",
+        "version": "4.4.1",
+        "author": "Solarint",
+        "dateAdded": 1775079220,
+        "url": "https://github.com/ArchangelWTF/SAIN"
       }
     ],
     "receivedGifts": [

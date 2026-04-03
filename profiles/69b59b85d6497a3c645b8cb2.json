@@ -116,7 +116,7 @@
             "Effects": {}
           }
         },
-        "UpdateTime": 1775249808
+        "UpdateTime": 1775250457
       },
       "Inventory": {
         "items": [
@@ -30415,12 +30415,6 @@
           "value": 1,
           "sourceId": "674605df60a98cad1b0ec799"
         },
-        "69cc3b04b4de6e16cc5d0b26": {
-          "id": "69cc3b04b4de6e16cc5d0b26",
-          "type": "HandoverItem",
-          "value": 3,
-          "sourceId": "69cc3b03b4de6e16cc5d0b24"
-        },
         "5c1b778286f774294438b536": {
           "id": "5c1b778286f774294438b536",
           "type": "CounterCreator",
@@ -30708,12 +30702,6 @@
           "type": "CounterCreator",
           "value": 0,
           "sourceId": "68400953506db3b4db0700e7"
-        },
-        "69cd8c844d57f13a08a4d9ae": {
-          "id": "69cd8c844d57f13a08a4d9ae",
-          "type": "HandoverItem",
-          "value": 0,
-          "sourceId": "69cd8c844d57f13a08a4d9ac"
         }
       },
       "InsuredItems": [
@@ -31380,8 +31368,8 @@
                       "StackObjectsCount": 1,
                       "SpawnedInSession": true,
                       "Resource": {
-                        "Value": 13.1976,
-                        "UnitsConsumed": 6.8024
+                        "Value": 13.131,
+                        "UnitsConsumed": 6.869
                       }
                     }
                   }
@@ -31869,7 +31857,7 @@
         "MannequinPoses": {
           "69beb3dff6bb9748f8ecd975": "67604a890aa8253ebe05fd06"
         },
-        "sptUpdateLastRunTimestamp": 1775250375,
+        "sptUpdateLastRunTimestamp": 1775250554,
         "Customization": {
           "Wall": "675467728b3797a0e8038bd4",
           "Floor": "675466ea8b3797a0e8038bd2",
